@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+    <script src="js1.js"></script>
+</head>
+<body>
+    <div>
+        <h3>Properties</h3>
+        <p>Name</p>
+        <input id="ip1" class="inputClass" type="text">
+        <p>Model</p>
+        <input id="ip2" class="inputClass" type="text">
+        <p>Year</p>
+        <input id="ip3" class="inputClass" type="text">
+        <p>Color</p>
+        <input id="ip4" class="inputClass" type="text">
+        <p>Body type</p>
+        <input id="ip5" class="inputClass" type="text">
+        <p>Engine Model</p>
+        <input id="ip6" class="inputClass" type="text">
+        <p>Engine capacity</p>
+        <input id="ip7" class="inputClass" type="text">
+        <p>Power</p>
+        <input id="ip8" class="inputClass" type="text">
+        <br>
+        <input class="button" type="submit" value="Push" onclick="push()">
+        <input class="button" type="submit" value="Show" onclick="showCar(cars)">
+        <br>
+    </div>
+    <div>
+        <h3>Your objects are</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Color</th>
+                <th>Body type</th>
+                <th>Engine SN</th>
+                <th>E-Capacity</th>
+                <th>Power</th>
+            </tr>
+        </table>
+        <table id="root">
+        </table>
+    </div>
+    <div>
+        <select id="name">
+            <option value="mercedes">Mercedes</option>
+            <option value="subaru">Subaru</option>
+            <option value="bmw">BMW</option>
+        </select>
+        <input class="button f_b" type="submit" value="Filter" onclick="filterCar()">
+        <h3>Your objects are</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Color</th>
+                <th>Body type</th>
+                <th>Engine SN</th>
+                <th>E-Capacity</th>
+                <th>Power</th>
+            </tr>
+        </table>
+        <table id="root2">
+        </table>
+    </div>
+</body>
+</html>
