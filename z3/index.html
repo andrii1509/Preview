@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js1.js"></script>
+</head>
+<body>
+    <div>
+        <p>Task 1, 2; max, min value</p>
+        <h2>Input 3 numbers</h2>
+            <p>1 num</p>
+            <input type="text" id="n1">
+            <p>2 num</p>
+            <input type="text" id="n2">
+            <p>3 num</p>
+            <input type="text" id="n3">
+        <button onclick="max()">Find max</button>
+        <button onclick="min()">Find min</button>
+        <h1 id="res"></h1>
+    </div>
+    <div>
+        <p>Task 3 <strong>(INPUT ONLY NUMBERS SPLIT "SPACE")</strong></p>
+        <input type="text" id="arrEl">
+        <button onclick="arrMaxMin()">Max value\returned min</button>
+        <h1 id="array"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+    </div>
+    <div>
+        <p>Task 4, 5, 6, 7, (with callback)</p>
+        <p><strong>(INPUT ONLY NUMBERS SPLIT "SPACE")</strong></p>
+        <input type="text" id="arr2El">
+        <h2>Please check what to do</h2>
+        <div class="myDiv">
+            <p class="fl"><input id="radio1" type="radio" name="array" value="arr"><br>Print array</p>
+            <p class="fl"><input id="radio2" type="radio" name="array" value="max"><br>max</p>
+            <p class="fl"><input id="radio3" type="radio" name="array" value="min"><br>min</p>
+            <p class="fl"><input id="radio4" type="radio" name="array" value="sortUp"><br>sort up</p>
+            <p class="fl"><input id="radio5" type="radio" name="array" value="sortDown"><br>sort down</p>
+        </div>
+        <button onclick="callB()">Result</button>
+        <h1 id="result">Result:</h1>
+
+
+    </div>
+</body>
+</html>
