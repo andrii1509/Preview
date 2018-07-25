@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="">
+    <button class="button1 bShow" >ShowAll</button>
+    <button class="button1 bFilterOn">Filter</button>
+    <button class="button1 bAdd">Add</button>
+</header>
+<div id="content1"></div>
+<div id="content2"></div>
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDJM9t21CavdvGHRCRiWsFnDrUY_BmG994",
+        authDomain: "tryandr-9b712.firebaseapp.com",
+        databaseURL: "https://tryandr-9b712.firebaseio.com",
+        projectId: "tryandr-9b712",
+        storageBucket: "tryandr-9b712.appspot.com",
+        messagingSenderId: "552956543728"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

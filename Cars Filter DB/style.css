@@ -1,0 +1,63 @@
+header{
+    width: 69%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("img/head_img.jpg");
+    background-position: center, center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 300px;
+    padding: 10px;
+}
+div{
+    position: relative;
+    width: 70%;
+    margin: 15px auto;
+    text-align: center;
+    background: silver;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.button1{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-weight: bold;
+    display: block;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+table{
+    border: 2px solid black;
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+tr, td{
+    width: auto;
+    border: 1px solid black;
+}
+input{
+    margin: 10px;
+}
+.bAddCar{
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    padding: 10px 0;
+}
+.container > table, tr{
+    width: 60%;
+}
+img{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    float: left;
+    margin: 0 20px;
+    width: 15%;
+}
