@@ -1,0 +1,25 @@
+div{
+    width: 50%;
+    margin: 30px auto;
+}
+tr, td{
+    width: auto;
+    border: 1px solid red;
+}
+table{
+    width: 100%;
+    margin: 20px auto;
+}
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+}
+.tDiv{
+    width: 80%;
+    margin: 0 auto
+}
+input{
+    height: 25px;
+    font-size: 15px;
+}
