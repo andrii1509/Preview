@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <select id="typeIn">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="RUR">RUR</option>
+            <option value="BTC">BTC</option>
+        </select>
+        <span>===>></span>
+        <select id="typeOut">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="RUR">RUR</option>
+            <option value="BTC">BTC</option>
+            <option value="UAH">UAH</option>
+        </select>
+        <div>
+        </div>
+        <div>
+            <input id="sum"  type="text" placeholder="your sum">
+        </div>
+            <button id="buy">Buy</button>
+            <button id="sell">Sale</button>
+            <h3 id="place"></h3>
+            <h3>Result</h3>
+        <div>
+            <table>
+                <tr>
+                    <td id="description"></td>
+                    <td id="resTarget"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="converterApp.js"></script>
+
+</html>

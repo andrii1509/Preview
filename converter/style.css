@@ -1,0 +1,38 @@
+.main{
+    width: 30%;
+    margin: 100px auto;
+    font-style: italic;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 2%;
+    background: #b28542;
+}
+button{
+    width: 35%;
+    height: 30px;
+}
+select{
+    width: 35%;
+}
+input{
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+}
+p{
+    display: inline-block;
+    width: 25%;
+}
+table{
+    margin: 10px auto;
+    width: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+td{
+    border: 1px solid black;
+    width: 50%;
+    height: 20px;
+}
